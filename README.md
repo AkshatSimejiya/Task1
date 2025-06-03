@@ -2,7 +2,7 @@ HTML Introduction and Structure:
 
 HTML is Hypertext Markup Language which is used to create web pages
 Basic Structure
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html>
 <head>
 <title>Page Title</title>
@@ -13,7 +13,7 @@ Basic Structure
 <p>This is a paragraph.</p>
 
 </body>
-</html>
+</html> -->
 
 
 HTML Block and Inline Elements:
