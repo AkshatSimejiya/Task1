@@ -3,7 +3,8 @@ table, th, td {
 }
 
 body {
-    background-color: #e6ca4e;
+    background-color: #FFFFCC;
+    font-family:sans-serif;
 }
 
 h1 {
@@ -11,16 +12,21 @@ h1 {
     text-align: center;
     font-weight: bold;
     font-style: italic;
-    background-color: #e72e2e;
-    color: #e6ca4e;
-    border-bottom: 10px solid #a02a2a; 
+    background-color: #990300;
+    color: #FFFFCC;
+    border-bottom: 10px solid #CC0600; 
+}
+
+.zeuslink {
+    text-decoration: none;
+    color: #8C1C88;
 }
 
 h2 {
     font-size: 32px;
-    background-color: #1c9c18;
-    color: #d6c57a;
-    padding: 10px 0;
+    background-color: #009801;
+    color: #FFFFFF;
+    padding: 5px 10px;
 }
 
 p{
@@ -32,7 +38,7 @@ ul, ol {
 }
 
 #table-dummy {
-    background-color: #aaaaaa;
+    background-color: #CCCCCC;
 }
 
 .googleImg {
@@ -53,6 +59,11 @@ ul, ol {
     font-size: 18px;
 }
 
+#inpForm input::placeholder, #inpForm textarea::placeholder{
+    color: #0f0f0f;
+}
+
 .greyText {
-    color: #616161;
+    color: #999999;
+    font-size: 22px;
 }

@@ -7,7 +7,7 @@ document.getElementById('inpForm').addEventListener('submit', function(event) {
   
   const name = document.getElementById('name').value;
   if (name === '') {
-    alert('Please enter a valid name.');
+    alert('Please enter a name.');
 
     valid = false;
   }
